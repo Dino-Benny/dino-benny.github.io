@@ -1,0 +1,37 @@
+# Site settings — edit these once, they flow everywhere
+title: The Adventures of Dino and Benny
+url: "https://dinobenny.com"
+description: >-
+  Gentle, villain-free picture books that carry early readers around the world.
+  Two best friends, one big wonderful world.
+contact_email: hello@dinobenny.com
+amazon_series_url: "https://www.amazon.com/dp/B0H7SW435Z"
+
+# Books live in the _books folder, one markdown file each.
+# URLs come out as /books/<filename>.html (same as the old site).
+collections:
+  books:
+    output: true
+    permalink: /books/:name:output_ext
+
+# Every file in _books automatically uses the book layout,
+# so a new book file needs no layout line.
+defaults:
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+
+plugins:
+  - jekyll-sitemap
+
+# Never publish these
+exclude:
+  - README.md
+  - image-prompts.md
+  - tools
+  - images/_incoming
+  - Gemfile
+  - Gemfile.lock
+  - vendor

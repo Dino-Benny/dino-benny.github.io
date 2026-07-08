@@ -1,0 +1,10 @@
+<header>
+  <nav class="nav" aria-label="Main">
+    <a class="logo" href="/"><img src="/images/favicon-64.png" alt="" width="40" height="40">Dino &amp; Benny</a>
+    <div class="nav-links">
+      <a href="/#books"{% if page.layout == 'book' %} aria-current="page"{% endif %}>Books</a>
+      <a href="/printables.html"{% if page.url == '/printables.html' %} aria-current="page"{% endif %}>Free Printables</a>
+      <a href="/about.html"{% if page.url == '/about.html' %} aria-current="page"{% endif %}>About</a>
+    </div>
+  </nav>
+</header>

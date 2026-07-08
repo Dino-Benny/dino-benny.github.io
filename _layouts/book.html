@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<main class="wrap book-hero">
+  <p class="crumbs"><a href="/#books">← All books</a></p>
+  <div class="book-layout">
+    <div class="cover">
+      <img src="/images/{{ page.cover }}" alt="{{ page.cover_alt | escape }}" width="800" height="1200">
+    </div>
+    <div>
+      <span class="badge" style="background:var(--belly);color:var(--green-dark);font-weight:800;border-radius:999px;padding:3px 14px;font-size:0.85rem;">Book {{ page.number }} · {{ page.location }}</span>
+      <h1>{{ page.title }}</h1>
+      <p class="lead"><strong>{{ page.lead }}</strong></p>
+      {{ content }}
+      <ul class="book-meta">
+        <li>Short, playful sentences made for reading aloud</li>
+        <li>{{ page.real_line }}</li>
+        <li>Gentle and villain-free, like every Dino and Benny story</li>
+        <li>24 fully illustrated pages · Kindle, paperback, and hardcover</li>
+      </ul>
+      <div class="buy-box">
+        <a class="btn" href="{{ page.buy_url | default: site.amazon_series_url }}" rel="noopener">Buy on Amazon</a>
+        {% if page.kindle_url or page.paperback_url or page.hardcover_url %}
+        <p class="formats">
+          {% if page.kindle_url %}<a href="{{ page.kindle_url }}">Kindle</a>{% endif %}
+          {% if page.paperback_url %} · <a href="{{ page.paperback_url }}">Paperback</a>{% endif %}
+          {% if page.hardcover_url %} · <a href="{{ page.hardcover_url }}">Hardcover</a>{% endif %}
+        </p>
+        {% else %}
+        <p class="formats">Available as Kindle ebook, paperback, and hardcover.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>More adventures</h2>
+    <div class="more-strip">
+      {% assign books = site.books | sort: "number" %}{% for book in books %}{% if book.url != page.url %}
+      <a href="{{ book.url }}"><img src="/images/{{ book.cover_sm }}" alt="" width="150" loading="lazy">{{ book.title }}</a>
+      {% endif %}{% endfor %}
+    </div>
+  </section>
+</main>

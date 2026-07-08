@@ -1,9 +1,100 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Dino and Benny Website</title>
-</head>
-<body>
-    <h1>Hello, world! Welcome to Dino and Benny's website.</h1>
-</body>
-</html>
+---
+layout: default
+head_title: The Adventures of Dino and Benny | Gentle Picture Books for Early Readers
+description: "Join Dino, a curious green dinosaur, and Benny, a calm brown bear, on gentle, villain-free picture book adventures around the world. Made for reading aloud with early readers."
+og_title: The Adventures of Dino and Benny
+---
+<main>
+
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">The Adventures of Dino and Benny</p>
+      <h1>Two best friends.<br>One big, wonderful world.</h1>
+      <p class="lead">Gentle, villain-free picture books that carry young readers from the sparkling Eiffel Tower to the brass bands of New Orleans. Short, playful sentences made for reading aloud, together.</p>
+      <div class="hero-ctas">
+        <a class="btn" href="{{ site.amazon_series_url }}" rel="noopener">Shop the series on Amazon</a>
+        <a class="btn btn-blue" href="/printables.html">Get free printables</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img class="dino" src="/images/dino.png" alt="Dino, a friendly green dinosaur wearing a blue backpack" width="445" height="640">
+      <img class="benny" src="/images/benny.png" alt="Benny, a calm brown bear wearing a red scarf" width="418" height="580">
+    </div>
+  </div>
+</div>
+
+<section id="books" class="section-alt">
+  <div class="wrap center">
+    <h2>The books so far</h2>
+    <p class="sub">Every adventure stands on its own, so you can start anywhere. Each one is available as a Kindle ebook, paperback, and hardcover.</p>
+    <div class="book-grid">
+      {% assign books = site.books | sort: "number" %}{% for book in books %}
+      <a class="book-card" href="{{ book.url }}">
+        <img src="/images/{{ book.cover }}" alt="{{ book.card_alt | escape }}" width="800" height="1200" loading="lazy">
+        <span class="badge">Book {{ book.number }} · {{ book.location | split: "," | first }}</span>
+        <h3>{{ book.title }}</h3>
+        <p>{{ book.card_line }}</p>
+      </a>
+      {% endfor %}
+    </div>
+    <p style="margin-top:28px">New adventures are on the way: New York, New Delhi, Tokyo, Rome, and many more.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap center">
+    <h2>Why families love these books</h2>
+    <div class="props">
+      <div class="prop">
+        <span class="emoji" aria-hidden="true">📖</span>
+        <h3>Made for reading aloud</h3>
+        <p>Short, playful sentences at an early-reader level. Little ones follow along, new readers try lines themselves, and grown-ups enjoy the ride.</p>
+      </div>
+      <div class="prop">
+        <span class="emoji" aria-hidden="true">🌍</span>
+        <h3>Real places, real wonder</h3>
+        <p>Every adventure visits real landmarks, foods, and words. Kids come home from each book knowing a little more about the world.</p>
+      </div>
+      <div class="prop">
+        <span class="emoji" aria-hidden="true">💛</span>
+        <h3>A gentle world</h3>
+        <p>No villains, no scares. Two friends who treat each other as equals, where kindness leads the way on every page.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap">
+    <h2 class="center">Meet the two friends</h2>
+    <div class="meet">
+      <div class="meet-card">
+        <img src="/images/dino.png" alt="" width="110">
+        <div>
+          <h3>Dino</h3>
+          <p>A curious green dinosaur with a blue backpack. Dino asks the questions, points at everything, and always wants one more look.</p>
+        </div>
+      </div>
+      <div class="meet-card">
+        <img src="/images/benny.png" alt="" width="110">
+        <div>
+          <h3>Benny</h3>
+          <p>A calm brown bear with a red scarf. Benny knows fun facts, keeps cozy snacks handy, and never hurries a good moment.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="email-band">
+  <div class="wrap inner">
+    <div>
+      <h2>Free printables for your little reader</h2>
+      <p>Coloring pages and activity sheets from the books, free for home and classroom use.</p>
+    </div>
+    <a class="btn btn-green" href="/printables.html">See the printables</a>
+  </div>
+</section>
+
+</main>
