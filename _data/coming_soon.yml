@@ -1,0 +1,23 @@
+# Books shown in the "Coming soon" strip on the home page.
+# When a book publishes: delete its entry here and create its file in _books/
+# (see README, "How to add a new book").
+- title: A New York Adventure
+  number: 4
+  location: New York
+  cover: cover-newyork.jpg
+  alt: "Coming soon: A New York Adventure. Dino holds a big pretzel and Benny holds a toy taxi in front of the Statue of Liberty and the Brooklyn Bridge."
+  teaser: "A giant green statue, a big warm pretzel, and a bright yellow taxi."
+
+- title: A New Delhi Adventure
+  number: 5
+  location: New Delhi
+  cover: cover-newdelhi.jpg
+  alt: "Coming soon: A New Delhi Adventure. Dino and Benny wear marigold garlands in front of India Gate, with kites flying above."
+  teaser: "Kites in the sky, marigold garlands, and a grand old gate."
+
+- title: A Tokyo Adventure
+  number: 6
+  location: Tokyo
+  cover: cover-tokyo.jpg
+  alt: "Coming soon: A Tokyo Adventure. Dino and Benny wave among cherry blossoms by a temple gate, with the Tokyo Skytree and a bullet train behind."
+  teaser: "Cherry blossoms, a glowing lantern, and a train as fast as the wind."

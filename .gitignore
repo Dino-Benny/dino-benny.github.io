@@ -1,6 +1,4 @@
 .DS_Store
-image-prompts.md
-images/_incoming/
 _site/
 .jekyll-cache/
 Gemfile.lock

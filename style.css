@@ -134,6 +134,9 @@ section { padding: 52px 0; }
   font-weight: 800; font-size: 0.8rem; border-radius: 999px;
   padding: 3px 12px; margin: 14px 0 6px;
 }
+.book-card .badge-soon { background: var(--sky); color: var(--blue-dark); }
+.book-card.no-link { cursor: default; }
+.book-card.no-link:hover { transform: none; border-color: transparent; }
 .book-card h3 { margin: 2px 0 4px; }
 .book-card p { margin: 0; font-size: 0.95rem; color: #6d6357; }
 

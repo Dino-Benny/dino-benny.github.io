@@ -38,7 +38,24 @@ og_title: The Adventures of Dino and Benny
       </a>
       {% endfor %}
     </div>
-    <p style="margin-top:28px">New adventures are on the way: New York, New Delhi, Tokyo, Rome, and many more.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap center">
+    <h2>Coming soon</h2>
+    <p class="sub">Three new adventures are almost packed and ready.</p>
+    <div class="book-grid">
+      {% for book in site.data.coming_soon %}
+      <div class="book-card no-link">
+        <img src="/images/{{ book.cover }}" alt="{{ book.alt | escape }}" width="800" height="1200" loading="lazy">
+        <span class="badge badge-soon">Book {{ book.number }} · Coming soon</span>
+        <h3>{{ book.title }}</h3>
+        <p>{{ book.teaser }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <p style="margin-top:28px">And after that: Rome, Cairo, Rio de Janeiro, and many more.</p>
   </div>
 </section>
 
