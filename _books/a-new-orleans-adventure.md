@@ -12,6 +12,9 @@ lead: "Toot, toot! Music fills the street. Come to New Orleans!"
 real_line: "Real New Orleans music, food, and sights"
 card_line: "Jazz, beignets, and a streetcar through the French Quarter."
 card_alt: "Book cover: A New Orleans Adventure. Dino and Benny wearing colorful beads on a festive street."
+buy_url: https://www.amazon.com/dp/B0H841VD86
+kindle_url: https://www.amazon.com/dp/B0H7YSDL1J
+paperback_url: https://www.amazon.com/dp/B0H841VD86
 ---
 Dino and Benny arrive in the Big Easy ready for a day of music, color, and good things to eat. They dance to a brass band, munch sugary beignets at Café Du Monde, and ride the streetcar past the French Quarter's flower-draped balconies. They catch beads at a parade, watch the Mardi Gras Indians in their beautiful feathered suits, and learn to toot a trumpet of their very own.
 

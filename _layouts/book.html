@@ -16,7 +16,7 @@ layout: default
         <li>Short, playful sentences made for reading aloud</li>
         <li>{{ page.real_line }}</li>
         <li>Gentle and villain-free, like every Dino and Benny story</li>
-        <li>24 fully illustrated pages · Kindle, paperback, and hardcover</li>
+        <li>24 fully illustrated pages · Kindle and paperback</li>
       </ul>
       <div class="buy-box">
         <a class="btn" href="{{ page.buy_url | default: site.amazon_series_url }}" rel="noopener">Buy on Amazon</a>
@@ -27,7 +27,7 @@ layout: default
           {% if page.hardcover_url %} · <a href="{{ page.hardcover_url }}">Hardcover</a>{% endif %}
         </p>
         {% else %}
-        <p class="formats">Available as Kindle ebook, paperback, and hardcover.</p>
+        <p class="formats">Available as a Kindle ebook and a paperback.</p>
         {% endif %}
       </div>
     </div>

@@ -1,23 +1,23 @@
 # Books shown in the "Coming soon" strip on the home page.
 # When a book publishes: delete its entry here and create its file in _books/
-# (see README, "How to add a new book").
-- title: A New York Adventure
-  number: 4
-  location: New York
-  cover: cover-newyork.jpg
-  alt: "Coming soon: A New York Adventure. Dino holds a big pretzel and Benny holds a toy taxi in front of the Statue of Liberty and the Brooklyn Bridge."
-  teaser: "A giant green statue, a big warm pretzel, and a bright yellow taxi."
+# (see MAINTENANCE.md, "How to add a new book").
+- title: A Rome Adventure
+  number: 7
+  location: Rome
+  cover: cover-rome.jpg
+  alt: "Coming soon: A Rome Adventure. Dino and Benny hold gelato cones in front of the Colosseum, with umbrella pines and a stone fountain nearby."
+  teaser: "The great round Colosseum, a fountain that sings, and long, long spaghetti."
 
-- title: A New Delhi Adventure
-  number: 5
-  location: New Delhi
-  cover: cover-newdelhi.jpg
-  alt: "Coming soon: A New Delhi Adventure. Dino and Benny wear marigold garlands in front of India Gate, with kites flying above."
-  teaser: "Kites in the sky, marigold garlands, and a grand old gate."
+- title: A Cairo Adventure
+  number: 8
+  location: Cairo
+  cover: cover-cairo.jpg
+  alt: "Coming soon: A Cairo Adventure. Dino and Benny wave near the pyramids and the Sphinx, with a camel, a white sailboat on the Nile, and glowing market lanterns."
+  teaser: "Great pyramids, a gentle camel, and a white sail on the Nile."
 
-- title: A Tokyo Adventure
-  number: 6
-  location: Tokyo
-  cover: cover-tokyo.jpg
-  alt: "Coming soon: A Tokyo Adventure. Dino and Benny wave among cherry blossoms by a temple gate, with the Tokyo Skytree and a bullet train behind."
-  teaser: "Cherry blossoms, a glowing lantern, and a train as fast as the wind."
+- title: A Rio de Janeiro Adventure
+  number: 9
+  location: Rio de Janeiro
+  cover: cover-rio.jpg
+  alt: "Coming soon: A Rio de Janeiro Adventure. Dino and Benny wave on the wave-patterned beach walk, with Sugarloaf Mountain, a cable car, and the statue with open arms behind them."
+  teaser: "Warm waves, beach soccer, and a little red train up a green mountain."

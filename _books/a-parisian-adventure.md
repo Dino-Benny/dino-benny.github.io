@@ -12,11 +12,9 @@ lead: "Bonjour, Paris! The city of lights is waiting."
 real_line: "Real Paris landmarks, foods, and French words"
 card_line: "Croissants, the Louvre, and a tower that sparkles at night."
 card_alt: "Book cover: A Parisian Adventure. Dino and Benny stand in front of the Eiffel Tower."
-# To use per-format buy links, add any of:
-# buy_url: https://www.amazon.com/dp/XXXXXXXXXX
-# kindle_url: ...
-# paperback_url: ...
-# hardcover_url: ...
+buy_url: https://www.amazon.com/dp/B0H8DC21YH
+kindle_url: https://www.amazon.com/dp/B0H8KJF5X1
+paperback_url: https://www.amazon.com/dp/B0H8DC21YH
 ---
 Best friends Dino and Benny ride up, up, up the Eiffel Tower and spot the blue ribbon of the Seine far below. They wave from a little river boat, hunt for a famous painting in the Louvre, and marvel at the shining glass pyramid. There are warm croissants at a sidewalk café, sweet macarons in every color, and a quiet rest by an old church as evening falls.
 

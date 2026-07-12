@@ -3,3 +3,9 @@ _site/
 .jekyll-cache/
 Gemfile.lock
 vendor/
+
+# Local working files, never published to the public repo
+MAINTENANCE.md
+_README.md
+image-prompts.md
+images/_incoming/
