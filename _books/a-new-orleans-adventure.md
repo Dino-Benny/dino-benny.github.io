@@ -4,14 +4,14 @@ number: 3
 location: New Orleans, USA
 cover: cover-neworleans.jpg
 cover_sm: cover-neworleans-sm.jpg
-cover_alt: "Book cover: A New Orleans Adventure. Dino and Benny wear colorful bead necklaces on a festive French Quarter street."
+cover_alt: "Book cover: A New Orleans Adventure. Dino holds a golden trumpet and Benny a bag of beignets, both wearing colorful Mardi Gras beads on a French Quarter street, with a paddle-wheel riverboat behind them."
 description: "Dino and Benny dance to a brass band, taste beignets at Café Du Monde, and ride the Steamboat Natchez. Book 3 in a gentle picture book series for early readers."
 og_description: "Jazz, beignets, a streetcar, and a friendly alligator in the green swamp. A gentle, villain-free picture book for early readers."
 og_type: book
 lead: "Toot, toot! Music fills the street. Come to New Orleans!"
 real_line: "Real New Orleans music, food, and sights"
 card_line: "Jazz, beignets, and a streetcar through the French Quarter."
-card_alt: "Book cover: A New Orleans Adventure. Dino and Benny wearing colorful beads on a festive street."
+card_alt: "Book cover: A New Orleans Adventure. Dino holds a trumpet and Benny a bag of beignets, both wearing colorful beads."
 buy_url: https://www.amazon.com/dp/B0H841VD86
 kindle_url: https://www.amazon.com/dp/B0H7YSDL1J
 paperback_url: https://www.amazon.com/dp/B0H841VD86

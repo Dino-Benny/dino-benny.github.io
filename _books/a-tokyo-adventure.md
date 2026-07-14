@@ -4,14 +4,14 @@ number: 6
 location: Tokyo, Japan
 cover: cover-tokyo.jpg
 cover_sm: cover-tokyo-sm.jpg
-cover_alt: "Book cover: A Tokyo Adventure. Dino and Benny wave among cherry blossoms by a temple gate, with the Tokyo Skytree and a bullet train behind them."
+cover_alt: "Book cover: A Tokyo Adventure. Dino holds a toy bullet train and Benny a pink paper crane by a temple gate with a big red lantern, the Tokyo Skytree and cherry blossoms behind them."
 description: "Dino and Benny ride a bullet train, munch sushi from a rolling belt, and fold a paper crane. Book 6 in a gentle picture book series for early readers."
 og_description: "Cherry blossoms, big taiko drums, and the view from the tallest tower in the world. A gentle, villain-free picture book for early readers."
 og_type: book
 lead: "Zoom! The train goes fast, fast, fast. Konnichiwa, Tokyo!"
 real_line: "Real Tokyo landmarks, foods, and first Japanese words"
 card_line: "A bullet train, sushi on a belt, and blossoms falling like snow."
-card_alt: "Book cover: A Tokyo Adventure. Dino and Benny among cherry blossoms with the Tokyo Skytree behind them."
+card_alt: "Book cover: A Tokyo Adventure. Dino holds a toy bullet train and Benny a paper crane, cherry blossoms and the Tokyo Skytree behind them."
 buy_url: https://www.amazon.com/dp/B0H8KHZTRG
 kindle_url: https://www.amazon.com/dp/B0H8KPJJ4L
 paperback_url: https://www.amazon.com/dp/B0H8KHZTRG
